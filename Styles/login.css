@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 56px;
+}
+
+.custom-navbar {
+    background-color: #F5E8F7;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .navbar-nav .nav-link {
+    color: #9553A0;
+    font-weight: bold;
+}
+#amaze{
+    font-weight: bolder;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #5b224e;
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-color: #9553A0;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+form {
+    max-width: 400px;
+    margin-top: 40%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #555;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 50%;
+    margin-left: 18%;
+    background-color: #9553A0;
+    border: 2px solid white;
+    color: white;
+}
+.btn:hover{
+    background-color:#E3C3E9;
+    color: #9553A0;
+    border: 2px solid #9553A0;
+}
+
+/* Style for Image */
+.col img {
+   width: 100%;
+   height: auto;
+   margin-top:100px;
+}
+
+footer {
+    background-color: #9553A0;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 56px;
+}
+
+.custom-navbar {
+    background-color: #F5E8F7;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .navbar-nav .nav-link {
+    color: #9553A0;
+    font-weight: bold;
+}
+#amaze{
+    font-weight: bolder;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #5b224e;
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-color: #9553A0;
+}
+
+
+.container {
+    margin-top: 100px;
+}
+
+.book-card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-card .card {
+    border: 1px solid #9553A0;
+    height: 100%;
+}
+
+.book-card .card-body {
+    background-color: white;
+}
+
+.book-card .card-title {
+    color: #9553A0;
+}
+
+.book-card .btn-primary {
+    background-color: #9553A0;
+    border-color: #9553A0;
+}
+
+.card-img-top {
+    height: 400px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+/* Subheadings */
+h2 {
+    color: #9553A0;
+    margin-top: 30px;
+}
+
+/* "See More" buttons */
+
+.btn-outline-primary {
+    color: #9553A0;
+    border-color: #9553A0;
+}
+
+.btn-outline-primary:hover {
+    color: white;
+    background-color: #9553A0;
+    border-color: #9553A0;
+}
+.btn:hover{
+    background-color:#E3C3E9;
+    color: #9553A0;
+    border: 2px solid #9553A0;
+}
+footer {
+    background-color: #9553A0;
+ 
+}
+
+.footer-content {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #9553A0;
+    color: white;
+}
