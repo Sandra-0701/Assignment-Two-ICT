@@ -1,10 +1,13 @@
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap');
 
+/* Body Styles */
 body {
     font-family: 'Poppins', sans-serif;
     padding-top: 56px;
 }
 
+/* Navbar Styles */
 .custom-navbar {
     background-color: #F5E8F7;
 }
@@ -14,9 +17,11 @@ body {
     color: #9553A0;
     font-weight: bold;
 }
-#amaze{
+
+#amaze {
     font-weight: bolder;
 }
+
 .navbar {
     margin-bottom: 20px;
 }
@@ -37,6 +42,7 @@ body {
     background-color: #9553A0;
 }
 
+/* Form Styles */
 .col {
     display: flex;
     align-items: center;
@@ -45,7 +51,7 @@ body {
 
 form {
     max-width: 400px;
-    margin-top: 40%;
+    margin-top: 10%; /* Adjusted margin-top for better positioning */
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -70,26 +76,29 @@ form {
     box-sizing: border-box;
 }
 
+/* Button Styles */
 .btn {
     width: 50%;
-    margin-left: 18%;
+    margin-left: 25%; /* Adjusted margin-left for better centering */
     background-color: #9553A0;
     border: 2px solid white;
     color: white;
 }
-.btn:hover{
-    background-color:#E3C3E9;
+
+.btn:hover {
+    background-color: #E3C3E9;
     color: #9553A0;
     border: 2px solid #9553A0;
 }
 
-/* Style for Image */
+/* Image Styles */
 .col img {
-   width: 100%;
-   height: auto;
-   margin-top:100px;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
 }
 
+/* Footer Styles */
 footer {
     background-color: #9553A0;
     color: white;
@@ -106,3 +115,5 @@ footer {
 .footer-content p {
     margin: 0;
 }
+
+
