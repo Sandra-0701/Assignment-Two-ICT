@@ -31,7 +31,6 @@
     </div>
 </nav>
 
-
 <!-- Sign Up Page Content -->
 <div class="container">
     <form>
@@ -39,19 +38,34 @@
         <div class="form-group">
             <label for="username">Username</label>
             <input type="text" class="form-control" id="username" placeholder="Choose a username">
+            <label id="username-error" class="error-label"></label>
         </div>
         <div class="form-group">
             <label for="email">Email</label>
             <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            <label id="email-error" class="error-label"></label>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="text" class="form-control" id="phone" placeholder="Enter your phone number">
+            <label id="phone-error" class="error-label"></label>
         </div>
         <div class="form-group">
             <label for="password">Password</label>
             <input type="password" class="form-control" id="password" placeholder="Choose a password">
+            <label id="password-error" class="error-label"></label>
         </div>
+        <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" class="form-control" id="confirm-password" placeholder="Confirm your password">
+            <label id="confirm-password-error" class="error-label"></label>
+        </div>
+        <div id="password-strength"></div>
         <button type="submit" class="btn btn-primary">Sign Up</button>
     </form>
     <img src="./Animation/sign-up-animate.svg" alt="" id="img">
 </div>
+
 <!-- Footer -->
 <footer>
     <div class="container">
@@ -60,9 +74,10 @@
         </div>
     </div>
 </footer>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+<script src="./script/signup.js"></script>
 </body>
 </html>
